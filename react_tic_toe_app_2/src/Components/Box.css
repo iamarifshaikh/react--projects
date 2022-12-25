@@ -1,0 +1,26 @@
+.box{
+    font-family: 'Fredoka One', cursive;
+    background-color: white;
+    border-radius: 10%;
+    border: none;
+    box-shadow: 0px 0px 8px #888;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    font-size: 5em;
+    line-height: 5rem;
+    font-weight: bold;
+    margin:0.5rem;
+}
+
+.x{
+    color: rgb(255, 70, 37);
+}
+
+.o{
+    color: rgb(44, 135, 255);
+}
+
+.box:hover{
+    box-shadow: 0px 0px 15px#888;
+}
