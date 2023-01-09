@@ -32,6 +32,7 @@ export const Form = () => {
             <input type="password" name='confirmPassword' placeholder="Confirm Password" {...register("confirmPassword")} />
             <p>{ errors.confirmPassword?.message}</p>
             <input type="submit" />
+            <input type="reset" />
         </form>
     )
 }
