@@ -1,0 +1,18 @@
+.score{
+
+}
+
+.twoButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+.button{
+    text-decoration: none;
+}

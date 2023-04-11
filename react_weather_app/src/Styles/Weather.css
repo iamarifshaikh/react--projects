@@ -1,0 +1,119 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+
+.weather{
+    display: flex;
+    max-width: 800px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    margin: 100px;
+    margin-left: 180px;
+    overflow: hidden;
+}
+
+.weatherOne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    border-right: 1px solid gray;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.search{
+background-color: rgb(255, 255, 255);
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-self: center;
+min-width: 210px;
+min-height: 30px; 
+margin: 20px;   
+/* margin-top: -100px; */
+border: 1px solid rgb(213, 213, 213);
+border-radius: 15px;
+}
+
+.search input,button{
+    outline: none;
+    color: black;
+    padding-top: 6px;
+    border: none;
+    background-color: rgb(252, 252, 252);
+}
+
+.search input{
+    padding-left: 15px;
+}
+.search button{
+    cursor: pointer;
+}
+
+.weatherImage{
+margin-top: -1rem;
+font-size: 10rem;
+}
+
+.temperature{
+font-size: 50px;
+}
+
+.weatherTwo{
+    background-color: rgb(242, 242, 242);
+    padding-left: 20px;
+    width: 65%;
+}
+
+.whichDetail{
+    margin-top: 15px;
+}
+
+.detailTemperatureOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+    padding-top: 10px;
+}
+
+
+.detailTemperatureTwo{
+    display: flex;
+    flex-direction: row;
+    padding-right: 100px;
+    padding-top: 10px;
+}
+
+.detail{
+    background-color: white;
+    display: flex;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    height: 120px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.detailMaxMin{
+     background-color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+     margin-right: 20px;
+    border-radius: 10px;
+    /* font-size: 10px; */
+    flex-direction: column;
+}
+
+.detailData{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

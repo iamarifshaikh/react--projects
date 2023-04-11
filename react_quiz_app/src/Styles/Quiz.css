@@ -1,0 +1,140 @@
+.quiz{
+    background-color: white;
+    color: rgb(27, 35, 55);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 500px;   
+}
+
+.number{
+text-align: start;
+font-weight: bolder;
+font-size: 30px;
+}
+
+.question{
+    text-align: start;
+    font-size: 30px;
+}
+
+.options{   
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.list{
+    cursor: pointer;
+    width: 95%;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid rgb(9, 39, 53);
+    list-style: none;
+    border-radius: 5px;
+    padding: 8px;
+    background: none;
+    text-align: start;
+    font-size: 20px;
+    color: rgb(27, 35, 55);
+}
+
+.list:hover{
+    color: white;
+    background-color: rgb(9, 39, 53);
+}
+
+.list.active{
+    color: white;
+    background-color: rgb(9, 39, 53);
+
+}
+
+.button{
+    background-color:rgb(9, 39, 53);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    align-items: end;
+    cursor: pointer;
+}
+
+.button:nth-child(2){
+    margin-left: 50%;
+}
+
+.allButton{
+  display: flex;
+  flex-direction: row;
+}
+
+.list.right{
+    cursor: pointer;
+    width: 95%;
+    margin-top: 20px;
+    padding-left: 10px;
+    list-style: none;
+    border-radius: 5px;
+    padding: 8px;
+    background: none;
+    text-align: start;
+    font-size: 20px;
+    color:white;
+    animation: right 4s ease forwards;
+}
+
+@keyframes right{
+    0%,
+    22%,
+    42%{
+        background: rgb(9, 39, 53);
+    }
+    20%,
+    40%,
+    60%{
+        color: rgb(27, 35, 55);
+        background: white;
+    }
+    62%,
+    100%{
+        background: rgb(4, 57, 15);
+    }
+
+}
+
+
+.list.wrong{
+    cursor: pointer;
+    width: 95%;
+    margin-top: 20px;
+    padding-left: 10px;
+    list-style: none;
+    border-radius: 5px;
+    padding: 8px;
+    background: none;
+    text-align: start;
+    font-size: 20px;
+    color: white;
+    animation: wrong 4s ease forwards;
+}
+
+@keyframes wrong{
+    0%,
+    22%,
+    42%{
+        background: rgb(9, 39, 53);
+    }
+    20%,
+    40%,
+    60%{
+        color: rgb(27, 35, 55);
+        background: white;
+    }
+    62%,
+    100%{
+        background: rgb(72, 9, 9);
+    }
+}

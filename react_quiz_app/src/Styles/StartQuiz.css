@@ -1,0 +1,39 @@
+.nameBox{
+    background-color: white;
+    color: rgb(27, 35, 55);
+    padding: 30px;
+}
+
+h1{
+    text-align: start;
+    font-size: 30px;
+}
+
+.h2{
+text-align: start;
+}
+
+p{
+    text-align: start;
+    padding-left: 20px;
+}
+
+input{
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(27, 35, 55);
+    width: 90%;
+    font-size: 30px;
+    color: rgb(27, 35, 55);
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.button{
+    margin-top: 30px;
+    align-items: start;   
+    width: 95%;
+    outline: none;
+    border: none;
+}
