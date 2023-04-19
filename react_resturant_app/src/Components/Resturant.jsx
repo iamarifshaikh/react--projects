@@ -10,7 +10,7 @@ const Resturant = () => {
 
   return (
   <div>
-      <Navbar setMenuData={setMenuData} />
+    <Navbar setMenuData={setMenuData} />
     <Menu menuData={menuData} />     
   </div>
   )

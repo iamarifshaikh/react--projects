@@ -35,8 +35,8 @@ const Navbar = ({setMenuData}) => {
         {menuList.map((elements) => {
           return (
             <button className="btn-group__item" onClick={() => filterItem(elements)}>{elements}</button>
-          );
-        })};
+          )
+        })} 
       </div>
     </nav>
   )
